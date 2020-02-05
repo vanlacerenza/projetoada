@@ -1,0 +1,24 @@
+importante sobre o go:
+tu podes instalar pelo terminal supo apt -get go
+
+no entanto:
+
+Dentro deste diretório devem conter as seguintes pastas:
+
+pasta-do-usuario/
+└── go
+    ├── bin
+    ├── pkg
+    └── src
+A bin , onde ficará os compilados do nosso código Go.
+
+A pkg, onde ficará os pacotes compartilhados das nossas aplicações, pois o Go é uma linguagem bastante modular, dependendo bastante de pacotes que vamos importando ao longo de nossos códigos.
+
+A src, onde escreveremos o código fonte de cada aplicação.
+
+todos os arquivos com extensão.go, devem ficar dentro da pasta src
+
+e para executar:
+
+
+go run testar.go
